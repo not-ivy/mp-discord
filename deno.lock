@@ -1,0 +1,22 @@
+{
+  "version": "2",
+  "remote": {
+    "https://deno.land/x/discord_rpc@0.3.1/deps.ts": "a3b5225abdd8b0468988fec80a354c17ddc2cf201c0b4c769197a3d1ede22292",
+    "https://deno.land/x/discord_rpc@0.3.1/mod.ts": "60900c6d14f21eaebb56babb26f7bdd663ee2be2fce9b108f8531748b9776e17",
+    "https://deno.land/x/discord_rpc@0.3.1/src/client.ts": "1bea4920d65e6beb7fed7cb6cc5bce82f21134c00b2edb7ab1d894463aafd457",
+    "https://deno.land/x/discord_rpc@0.3.1/src/conn.ts": "9fd25db06e2d70951beb4700b333347b649fd35feb3295ceea00e19fe0348d91",
+    "https://deno.land/x/discord_rpc@0.3.1/src/types.ts": "0ea6155131c566f2df6dadf0d8db20364b50d22c7bd3a46e2a80157ccebcdb25",
+    "https://deno.land/x/discord_rpc@0.3.1/src/util.ts": "27cf529418bb0c66d830d31895938367e344785e277f1da18ce09bd11dec5c39",
+    "https://deno.land/x/namedpipe@0.1.1/client.ts": "1419d9ada7e616f7dbde171c8dbb01515957f91775d10eeb71755fbda75e501f",
+    "https://deno.land/x/namedpipe@0.1.1/deps.ts": "442d0a49b60382f3d343225caa37e501999d53888b52a2647d61f2ef86e4d72d",
+    "https://deno.land/x/namedpipe@0.1.1/mod.ts": "865f345ff24605453bc6d89d780c0785eb8c75345a01eef6bf66b4fb578e67b9",
+    "https://deno.land/x/win@0.2.0/api/Foundation.ts": "d1630ddbded2492e651f4872d0b2883d6fd5a339494b4164cb68e4afbbd51643",
+    "https://deno.land/x/win@0.2.0/api/Storage/FileSystem.ts": "ebf22492f3f280d3fded5bb8b96815ae00f0a1e98a64390139991eaf7ac31126",
+    "https://deno.land/x/win@0.2.0/api/System/Diagnostics/Debug.ts": "c690cfdd9a1ba80cad8ad199dc79e2a547cd7a4d357674f40bb677bc96f6953d",
+    "https://deno.land/x/win@0.2.0/api/System/IO.ts": "abcc40345a0afd493827c672d808576696df9845035594e60d1337918462044e",
+    "https://deno.land/x/win@0.2.0/api/System/Pipes.ts": "0ec99136030c8b6f0ae9f968b542b4b14521507a3b5e1619459da86297ab4d1c",
+    "https://deno.land/x/win@0.2.0/error.ts": "f2e0a97494f44829e3452429f12a31c4c8f3ac769cecf2294bccb6be16bdb7b6",
+    "https://deno.land/x/win@0.2.0/overlapped.ts": "e3a006bfebbc9add8b098624e916821dfbf87c85066b388808230e60f7b83fa8",
+    "https://deno.land/x/win@0.2.0/util.ts": "9e67fc161b221533dd95959e5518c861da34b79cc42bb6fa2b4f1d75b0bc0a47"
+  }
+}
