@@ -11,17 +11,22 @@ const apiUrl = `https://player.monstercat.app/api/currently-playing?${
 const start = Date.now();
 
 setInterval(async () => {
-  const data: PlayerAPIResponse = await (await fetch(apiUrl)).json();
-  await client.setActivity({
-    assets: {
-      large_image:
-        `https://cdx.monstercat.com/?width=1024&encoding=jpg&url=https://www.monstercat.com/release/${data.CurrentlyPlaying.CatalogId}/cover`,
-    },
-    details: `Listening to ${data.CurrentlyPlaying.TrackTitle}`,
-    state:
-      `by ${data.CurrentlyPlaying.ArtistsTitle}\non ${data.CurrentlyPlaying.ReleaseTitle}`,
-    timestamps: {
-      start,
-    },
-  });
+  try {
+    const data: PlayerAPIResponse = await (await fetch(apiUrl)).json();
+    await client.setActivity({
+      assets: {
+        large_image:
+          `https://cdx.monstercat.com/?width=1024&encoding=jpg&url=https://www.monstercat.com/release/${data.CurrentlyPlaying.CatalogId}/cover`,
+        large_text: data.CurrentlyPlaying.ReleaseTitle,
+      },
+      details: `Listening to ${data.CurrentlyPlaying.TrackTitle}`,
+      state:
+        `by ${data.CurrentlyPlaying.ArtistsTitle}\non ${data.CurrentlyPlaying.ReleaseTitle}`,
+      timestamps: {
+        start,
+      },
+    });
+  } catch (error) {
+    console.error(error);
+  }
 }, 5000);
